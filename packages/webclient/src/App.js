@@ -12,6 +12,7 @@ function App() {
   useEffect(() => {
     getUsers();
   }, []);
+
   return (
     <div className="App">
       <Users users={users} />
