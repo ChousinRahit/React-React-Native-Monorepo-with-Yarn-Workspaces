@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 25px 30px;
+  padding: 15px 40px;
+  border-radius: 10;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

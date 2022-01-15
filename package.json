@@ -1,0 +1,12 @@
+{
+    "private":true,
+    "name":"monorepo",
+    "workspaces":[
+        "packages/*"
+    ],
+    "scripts": {
+        "start":"yarn workspace @monorepo-yarn/webclient run start",
+        "native":"yarn workspace mobile android",
+        "metro-start":"yarn workspace mobile start"
+    }
+}
